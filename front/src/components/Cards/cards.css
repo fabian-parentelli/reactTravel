@@ -1,0 +1,170 @@
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 4rem;
+    margin-top: 2rem;
+}
+
+.cardDiv {
+    width: 40%;
+    display: flex;
+    border-radius: 1rem;
+    background: #C1DDE9;
+    height: 220px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+}
+
+.cardText {
+    width: 50%;
+    padding-left: 15px;
+    /* position: absolute; */
+}
+
+.cardText h4 {
+    width: 100%;
+    font-size: 20px;
+    margin: 15px 0px;
+    text-transform: capitalize;
+}
+
+.cardInterText {
+    width: 100%;
+    text-align: left;
+}
+
+.price {
+    font-weight: 600;
+    /* margin-top: 1rem; */
+}
+
+.parr {
+    margin: 3px 0px;
+    text-transform: capitalize;
+}
+
+.smallDesc {
+    padding-right: 10px;
+}
+
+.priceYBtn {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 55px;
+    align-items: center;
+}
+
+.cardDiv img {
+    width: 50%;
+    object-fit: fill;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.cardText button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 15px;
+    border: solid 2px #2E4B73;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 600;
+    background-color: #2E4B73;
+    color: white;
+}
+
+.cardText button:hover {
+    background-color: #4d5d74;
+}
+
+.cardText button:active {
+    background-color: #6d6868;
+}
+
+/* boton 2E4B73 */
+/* Letras 3E4439 */
+.favButton {
+    width: 50px;
+    height: 30px;
+    border-radius: 6px;
+    margin: 15px;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 600;
+    background-color: #2E4B73;
+    color: white;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 15px;
+   
+}
+@media screen and (max-width:768px) {
+    .cardDiv {
+        width: 80%;
+        height: auto;
+        top: 5px;
+        flex-direction: column-reverse;
+    }
+    .priceYBtn {
+        top: 5px;
+    }
+    .cardText {
+        width: 100%;
+        padding-left: 15px
+    }
+    .cardDiv img {
+        width: 100%;
+        object-fit: fill;
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+}
+
+/* PAGINADOR */
+.paginador {
+    margin: 30px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 200;
+    gap: 30px;
+}
+
+.paginador .select-page {
+    display: flex;
+    padding: 6.5px 8px;
+    border-radius: 6px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A2A3A;
+}
+
+.select-page span {
+    color: white
+}
+
+.paginador button {
+    font-size: 18px;
+    font-weight: 200;
+    padding: 0px 8px;
+    width: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px;
+    transition: 0.3s;
+    background-color: #48607e;
+}
+
+.paginador button:hover {
+    background-color: #235fae;
+}
+
+.paginador button:active {
+    box-shadow: none;
+}

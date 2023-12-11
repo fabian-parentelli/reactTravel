@@ -1,0 +1,51 @@
+.listadoTable {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #243C58;
+  color: #fff;
+}
+
+.listadoTable th, .listadoTable td {
+  padding: 12px;
+  text-align: left;
+}
+
+.listadoTable th {
+  background-color: #1A2A3A;
+}
+
+.listadoTable tbody tr:nth-child(even) {
+  background-color: #1A2A3A;
+}
+
+.listadoTable tbody tr:hover {
+  background-color: #314560;
+}
+
+.acciones {
+  width: 200px;
+}
+
+.acciones button {
+  margin-right: 5px;
+  margin-left: 25px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  transition: .3s;
+}
+
+.acciones button:hover {
+  background-color: #2e7932;
+}
+
+.acciones .eliminarButton {
+  background-color: #af4c4c;
+}
+
+.acciones .eliminarButton:hover {
+  background-color: #b13434;
+}

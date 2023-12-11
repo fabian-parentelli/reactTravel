@@ -1,0 +1,36 @@
+.bookingsBody {
+    width: 100%;
+    min-height: 60px;
+    background-color: #243C58;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bookingsBody h4 {
+    color: white;
+}
+
+.calendarsBody {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.btnBookingBody {
+    padding: 3px;
+    font-size: 1.2rem;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #2e4b73;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btnBookingBody:hover {
+    background-color: #213552;
+}

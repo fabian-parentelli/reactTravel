@@ -1,0 +1,7 @@
+.blue {
+    background: brown !important;
+}
+
+.blue:hover {
+    background: rgb(150, 29, 29) !important;
+}

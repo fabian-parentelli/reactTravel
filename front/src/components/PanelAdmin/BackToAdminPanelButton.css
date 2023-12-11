@@ -1,0 +1,17 @@
+.back-button {
+    position: fixed;
+    top: 200px; /* Ajusta la distancia desde la parte superior según tu preferencia */
+    left: 40px; /* Ajusta la distancia desde la izquierda según tu preferencia */
+    background-color: #007bff;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .back-button a {
+    text-decoration: none;
+    color: #fff;
+  }

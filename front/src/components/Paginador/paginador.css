@@ -1,0 +1,48 @@
+/* PAGINADOR */
+.paginador {
+  margin: 30px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 200;
+  gap: 30px;
+}
+
+/*.paginador p {
+  margin: 0 2rem;
+} */
+
+.paginador .select-page {
+  display: flex;
+  padding: 6.5px 8px;
+  border-radius: 6px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #1A2A3A;
+}
+
+.select-page span{
+  color:white
+}
+
+.paginador button {
+  font-size: 18px;
+  font-weight: 200;
+  padding: 0px 8px;
+  width: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px;
+  transition: 0.3s;
+  background-color: #314560;
+}
+
+.paginador button:hover {
+  background-color: #235fae;
+}
+
+.paginador button:active {
+  box-shadow: none;
+}

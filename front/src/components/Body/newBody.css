@@ -1,0 +1,78 @@
+.divBody {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.divBody .first-part {
+    width: 100%;
+    min-height: 40vh;
+    background-image: url('./Images/BackgroundSearch.png');
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBody .first-part input {
+    width: 40%;
+    height: 50px;
+    border-radius: 20px 0px 0px 20px;
+    background: #99B4BF;
+    border: none;
+    text-indent: 4%;
+}
+
+.divBody .first-part input::placeholder {
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.divBody .first-part button {
+    height: 50px;
+    min-width: 10%;
+    border: none;
+    border-radius: 0px 20px 20px 0;
+    background: #243C58;
+    color: white;
+    font-weight: 600;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.divBody .first-part button:hover {
+    background: #37485c;
+}
+
+.divBody .first-part button:active {
+    background: #574e4e;
+}
+
+
+@media screen and (max-width:768px) {
+    .divBody .first-part input {
+        width: 60%;
+        margin-bottom: 0px
+    }
+
+    .second-part .slide-container img {
+        width: 100%;
+    }
+
+    .divBody .first-part input::placeholder {
+        font-size: 13px;
+    }
+
+    .divBody .first-part button {
+        font-size: 15px;
+        padding: 0 6px;
+    }
+
+    .divBody .first-part{
+        min-height:30vh
+    }
+}

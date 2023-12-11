@@ -1,0 +1,54 @@
+.categoriasContainer {
+    width: 100%;
+}
+
+.categorias {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.categoryCards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.unidCardCategory {
+    min-width: 70px;
+    border: 3px solid #243C58;
+    border-radius: 6px;
+    padding: 6px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.textCardCat {
+    position: absolute;
+    background-color: #243C58;
+    color: white;
+    width: 110%;
+    height: 110%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: clip-path 0.3s;
+}
+
+.unidCardCategory img {
+    width: 60px;
+}
+
+.unidCardCategory:hover .textCardCat {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
